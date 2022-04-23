@@ -119,3 +119,15 @@ Code:
 ```
 
 ## Audio
+To add audio files to your page use `audio` element (It has closing tag between which you can list sources in case one is not supported by browser).
+You can add controls to an audio with `controls` attribute. You can make it auto play with `autoplay` attribute as well as muted (`muted`) and looped (`loop`)
+
+<audio controls src="/sample3.mp3"></audio>
+<audio controls src="/sample3.mp3" autoplay muted loop></audio>
+
+Code:
+
+```html
+<audio controls src="/sample3.mp3"></audio>
+<audio controls src="/sample3.mp3" autoplay muted loop></audio>
+```
