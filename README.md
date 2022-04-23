@@ -1,6 +1,6 @@
 # HTML notes
 This contains some useful info about HTML. \
-If you struggle to understand what the hell is here well this is my notes for HTML.
+If you struggle to understand what is written here well this is my notes for HTML.
 You can fork it and change it if you like.
 
 ## Main structure
