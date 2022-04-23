@@ -85,16 +85,19 @@ Code:
 ```
 ## Hyperlinks
 Element of the page surrounded by `a` tags that refers to something
-Has attribute `target`. If you set target to `_blank` link will open in new tab/window, if target is set to `_self` which is default then link will open in current tab.
+Has attribute `target`. If you set target to `_blank` link will open in new tab/window, if target is set to `_self` which is default then link will open in current tab. Also there is useful attribute `title` which displays tip box when hover over link. Links can also be used to redirect user to another page. To do so you need to insert path to necessary html file in main one into `href` attribute.
+To begin sending email process you need to insert `mailto:email@email.example` into `href` attribute
 
 <a href="https://google.com">'Google' with no extra attributes</a><br>
 <a href="https://google.com" target=_blank>'Google' with blank</a><br>
-<a href="https://google.com" target=_self>'Google' with self</a>
+<a href="https://google.com" target=_self>'Google' with self</a><br>
+<a href="https://google.com" title="Title">'Google' with title</a>
 
 
 Code:
 ```html
 <a href="https://google.com">'Google' with no extra attributes</a><br>
 <a href="https://google.com" target=_blank>'Google' with blank</a><br>
-<a href="https://google.com" target=_self>'Google' with self</a>
+<a href="https://google.com" target=_self>'Google' with self</a><br>
+<a href="https://google.com" title="Title">'Google' with title</a>
 ```
