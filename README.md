@@ -81,5 +81,6 @@ This element doesn't require closing tag. Devides page by sections
 
 Code:
 ```html
-<hr>```
+<hr>
+```
 
