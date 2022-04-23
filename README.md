@@ -73,3 +73,13 @@ code:
 ```html
 <br>
 ```
+
+## Horizontal rule
+This element doesn't require closing tag. Devides page by sections 
+
+<hr>
+
+Code:
+```html
+<hr>```
+
