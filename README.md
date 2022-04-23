@@ -1,6 +1,5 @@
-# Learning HTML
+# HTML notes
 This contains some useful info about HTML. \
-Soon will organize it. \
 If you struggle to understand what the hell is here well this is my notes for HTML.
 You can fork it and change it if you like.
 
@@ -109,7 +108,7 @@ To display images you need to use image element `img` which is self closing tag
 and change it's source attribute. Also you can change size of the image. To do so you need to use `width` and `height` attributes (This attributes are in **PIXELS**). In order to scale an image you can change only one attribute. To add alternative text to the image you need to use `alt` attribute. To add a pop up text box use `title` attribute. If you want to add hyperlink to the image simply surround it with `a` tags and add link to `href` attribute of `a` tag. 
 
 <img src="images/example.jpg" alt="This is an example image"><br>
-<a href="https://commons.wikimedia.org/wiki/Example_images"><img src="images/example.jpg" alt="image" title="Link to the image source"></a><br>
+<a href="https://commons.wikimedia.org/wiki/Example_images"><img src="images/example.jpg" alt="image" title="Link to the image source" width=180></a><br>
 <img src="images/example.jpg" width=280, height=110 title="Is it wide?">
 
 Code:
@@ -118,3 +117,5 @@ Code:
 <a href="https://commons.wikimedia.org/wiki/Example_images"><img src="images/example.jpg" alt="image" title="Link to the image source"></a><br>
 <img src="images/example.jpg" width=180, height=110>
 ```
+
+## Audio
