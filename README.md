@@ -101,3 +101,14 @@ Code:
 <a href="https://google.com" target=_self>'Google' with self</a><br>
 <a href="https://google.com" title="Title">'Google' with title</a>
 ```
+
+## Images
+To display images you need to use image element `img` which is self closing tag
+and change it's source attribute
+
+<img src="images/example.jpg">
+
+Code:
+```html
+<img src="images/example.jpg">
+```
