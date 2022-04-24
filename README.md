@@ -103,7 +103,7 @@ Code:
 <a href="https://google.com" title="Title">'Google' with title</a>
 ```
 
-## Images
+## Image
 To display images you need to use image element `img` which is self closing tag
 and change it's source attribute. Also you can change size of the image. To do so you need to use `width` and `height` attributes (This attributes are in **PIXELS**). In order to scale an image you can change only one attribute. To add alternative text to the image you need to use `alt` attribute. To add a pop up text box use `title` attribute. If you want to add hyperlink to the image simply surround it with `a` tags and add link to `href` attribute of `a` tag. 
 
@@ -132,4 +132,14 @@ Code:
     <source src="/sample3.wav">
     This browser does not support HTML5
 </audio>
+```
+
+## Video
+MP4, Ogg and WebM maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
+
+<video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
+
+Code: 
+```html
+<video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
 ```
