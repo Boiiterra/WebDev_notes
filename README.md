@@ -252,3 +252,5 @@ Code:
     <dd>Definition 2</dd>
 </dl>
 ```
+
+## Tables
