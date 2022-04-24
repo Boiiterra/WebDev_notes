@@ -1,5 +1,5 @@
 # HTML notes
-This contains some useful info about HTML. \
+This contains some useful info about HTML. Some examples are not supported here so you can view [Website]("https://google.com" "Link to the website") \
 If you struggle to understand what is written here well this is my notes for HTML.
 You can fork it and change it if you like.
 
@@ -137,8 +137,6 @@ Code:
 ## Video
 MP4, Ogg and WebM maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
 
-<video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
-
 Code: 
 ```html
 <video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
@@ -178,3 +176,79 @@ Code:
 ```
 
 ## Lists 
+<br>
+
+### Unordered list
+<br>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3
+        <ul>
+            <li>Subitem 1</li>
+        </ul>
+    </li>
+</ul>
+<br>
+
+### Ordered list
+<br>
+<ol type="A">
+    <li>First
+        <ol>
+            <li>Subitem 1</li>
+        </ol>
+    </li>
+    <li>Second</li>
+    <li>Third</li>
+</ol>
+
+### Description list
+<br>
+<dl>
+    <dt>Term 1</dt>
+    <dd>Definition 1</dd>
+    <dt>Term 2</dt>
+    <dd>Definition 2</dd>
+</dl>
+<br>
+
+Code:
+
+<br>
+
+
+```html
+<h3>Unordered list</h3>
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3
+        <ul>
+            <li>Subitem 1</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Ordered list</h3>
+
+<ol type="A">
+    <li>First
+        <ol>
+            <li>Subitem 1</li>
+        </ol>
+    </li>
+    <li>Second</li>
+    <li>Third</li>
+</ol>
+
+<h3>Description list</h3>
+
+<dl>
+    <dt>Term 1</dt>
+    <dd>Definition 1</dd>
+    <dt>Term 2</dt>
+    <dd>Definition 2</dd>
+</dl>
+```
