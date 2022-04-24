@@ -143,3 +143,38 @@ Code:
 ```html
 <video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
 ```
+
+## Text formatting tags
+Some of them.
+
+<br>
+
+<p>This is normal text</p>
+<p>This is <b>bold</b> text</p>
+<p>This is <i>italic</i> text</p>
+<p>This is <big>big</big> text</p>
+<p>This is <small>small</small> text</p>
+<p>This is <sub>subscript</sub> text</p>
+<p>This is <sup>superscript</sup> text</p>
+<p>This is <ins>inserted</ins> text</p>
+<p>This is <del>deleted</del> text</p>
+<p>This is <mark>marked</mark> text</p>
+<br>
+Code:
+
+<br>
+
+```html
+<p>This is normal text</p>
+<p>This is <b>bold</b> text</p>
+<p>This is <i>italic</i> text</p>
+<p>This is <big>big</big> text</p>
+<p>This is <small>small</small> text</p>
+<p>This is <sub>subscript</sub> text</p>
+<p>This is <sup>superscript</sup> text</p>
+<p>This is <ins>inserted</ins> text</p>
+<p>This is <del>deleted</del> text</p>
+<p>This is <mark>marked</mark> text</p>
+```
+
+## Lists 
