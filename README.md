@@ -21,6 +21,7 @@
   - [Colorful page](#colorful-page)
   - [Span and div](#span-and-div)
   - [Metadata](#metadata)
+  - [Iframe](#iframe)
 
 </details>
 <hr>
@@ -488,7 +489,7 @@ Code:
 ## Metadata
 Is data that gives or describes info about data. Positioned between `head` tags of the document. `meta` tag is self closing tag. \
 
-`Meta` tag has `http-equiv`, `charset`, `name` and `content` attributes. Maybe more.
+`meta` tag has `http-equiv`, `charset`, `name` and `content` attributes. Maybe more.
 
 <br>
 
@@ -505,6 +506,23 @@ Code:
     <meta charset="UTF-8"> <!-- Tells browser character encoding you are using -->
     <meta http-equiv="refresh" content="30"> <!-- auto refresh page after '30' seconds -->
 </head>
+```
+
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+
+## Iframe
+`iframe` tag - embed content from another source into an HTML document, ex. used for ads.
+
+<br>
+<iframe style="border: 0;" src="page3.html", height="250", width="500"></iframe>
+<br>
+
+Code:
+
+<br>
+
+```html
+<iframe style="border: 0;" src="page3.html", height="250", width="500"></iframe>
 ```
 
 <p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
