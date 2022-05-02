@@ -21,6 +21,9 @@
   - [Colorful page](#colorful-page)
 
 </details>
+<hr>
+<a href="https://terraboii.github.io/HTML_notes/"><p><b>Link to the Webpage</b></p></a>
+<hr>
 
 <br>
 
@@ -424,14 +427,21 @@ Code:
 ```
 
 ## Colorful page
-To make things colorful use attribute `style`.
+To make things colorful use attribute `style`. To add colors use <u title="black" style="color: #fc7f03;">text</u>, <u title="#000000" style="color: #fc7f03;">hex</u> or <u title="rgb(0, 0, 0)" style="color: #fc7f03;">rgb</u> values
 
 <br>
 
-Code:
+Check out [Website's page 3]("https://terraboii.github.io/HTML_notes/page3.html")
+
+<br>
+
+Code (from page 3):
 
 <br>
 
 ```html
-
+<body style="background-color: black;">
+    <a href="index.html"><h3 style="color: rgb(0, 255, 255);"><b>Go back to main page</b></h3></a>
+    <p style="color: blue; font-size: 60px; background-color: #444444;"><b style="color: red;">R</b><i style="color: green;">G</i>B</p>
+</body>
 ```
