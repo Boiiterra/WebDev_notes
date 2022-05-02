@@ -574,102 +574,10 @@ Code:
 This element accepts user's input.
 
 <br>
-<form action="action_page.php" method="post">
 
-<div>
-    <label for="name">Name:</label>
-    <input id="name" type="text" placeholder="John" required name="name">
-</div>
+Check [website](https://terraboii.github.io/HTML_notes/ "website").
 
 <br>
-
-<div>
-    <label for="sname">Surname:</label>
-    <input id="sname" type="text" placeholder="Brown" required name="sname">
-</div>
-
-<br>
-
-<div>
-    <label for="pass">Password:</label>
-    <input id="pass" type="password" placeholder="password" required name="pass" minlength="8" maxlength="16">
-</div>
-
-<br>
-
-<div>
-    <label for="phone">Telephone:</label>
-    <input id="phone" type="tel" placeholder="(000)-000-0000" required name="phone" maxlength="16">
-</div>
-
-<br>
-
-<div>
-    <label for="email">Email:</label>
-    <input id="email" type="email" placeholder="example@gmail.com" required name="email">
-</div>
-
-<br>
-
-<div>
-    <label for="bday">Birthdate:</label>
-    <input id="bday" type="date" required name="bday">
-</div>
-
-<br>
-
-<div>
-    <label for="num">Amount:</label>
-    <input id="num" type="number" required name="num" min="0" max="999" value="1">
-</div>
-
-<br>
-
-<div>
-    <label for="gend">Who are you:</label>
-    &ensp;&nbsp;
-    <label for="mr">Ms.:</label>
-    <input id="mr" type="radio" required name="gend" value="mr">
-    &emsp;&ensp;&nbsp;
-    <label for="mrs">Mrs.:</label>
-    <input id="mrs" type="radio" required name="gend" value="mrs">
-    &emsp;&ensp;&nbsp;
-    <label for="phd">PhD.:</label>
-    <input id="phd" type="radio" required name="gend" value="phd">
-</div>
-
-<br>
-
-<div>
-    <label for="select">Selected:</label>
-    <select id="select" required name="selected">
-        <option value="opt1">opt 1</option>
-        <option value="opt2">opt 2</option>
-        <option value="opt3">opt 3</option>
-    </select>
-</div>
-
-<br>
-
-<div>
-    <label for="chbut1">Checkbutton 1:</label>
-    <input id="chbut1" type="checkbox" required name="chbut">
-    &emsp;&ensp;&nbsp;
-    <label for="chbut2">Checkbutton 2:</label>
-    <input id="chbut2" type="checkbox" required name="chbut">
-</div>
-
-<br>
-
-<div>
-    <input type="reset">
-    &emsp;&ensp;&nbsp;
-    <input type="submit">
-</div>
-
-</form>
-<br>
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 Code:
 
