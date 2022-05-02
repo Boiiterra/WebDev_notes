@@ -538,7 +538,7 @@ Code:
 <br>
 
 ```html
-<iframe style="border: 0;" src="page3.html", height="250", width="500"></iframe>
+<iframe style="border: 0;" src="ad_example.html", height="250", width="500"></iframe>
 ```
 
 <p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
