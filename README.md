@@ -56,7 +56,7 @@ For HTML5:
 
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Websites title
 
@@ -68,7 +68,7 @@ To change websites title use:
 <title>Title</title>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Headers
 
@@ -97,7 +97,7 @@ Code:
 <h6>Header 6</h6>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Paragraph
 
@@ -115,7 +115,7 @@ Code:
 <p>Paragraph example</p>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Line breaker
 This element doesn't require closing tag. Adds line break 
@@ -135,7 +135,7 @@ code:
 <p>Line 2</p>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Horizontal rule
 This element doesn't require closing tag. Devides page by sections 
@@ -152,7 +152,7 @@ Code:
 <hr>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Hyperlinks
 Element of the page surrounded by `a` tags that refers to something
@@ -179,7 +179,7 @@ Code:
 <a href="https://google.com" title="Title">'Google' with title</a>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Image
 To display images you need to use image element `img` which is self closing tag
@@ -203,7 +203,7 @@ Code:
 <img src="images/example.jpg" width=180, height=110>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Audio
 To add audio files to your page use `audio` element (It has closing tag between which you can list sources in case one is not supported by browser).
@@ -223,7 +223,7 @@ Code:
 </audio>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Video
 MP4, Ogg and WebM maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
@@ -236,7 +236,7 @@ Code:
 <video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Text formatting tags
 Some of them.
@@ -271,7 +271,7 @@ Code:
 <p>This is <mark>marked</mark> text</p>
 ```
 
-<br>
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Lists 
 <br>
@@ -351,7 +351,8 @@ Code:
 </dl>
 ```
 
-<br>
+
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
 
 ## Tables
 Is an arrangement of information or data usually represented in rows and columns.
@@ -426,12 +427,14 @@ Code:
 </table>
 ```
 
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+
 ## Colorful page
 To make things colorful use attribute `style`. To add colors use <u title="black">text</u>, <u title="#000000">hex</u> or <u title="rgb(0, 0, 0)">rgb</u> values.
 
 <br>
 
-[Check out Website's page 3]("https://terraboii.github.io/HTML_notes/page3.html").
+Check out [Website's page 3](https://terraboii.github.io/HTML_notes/page3.html "page 3").
 
 <br>
 
@@ -445,3 +448,5 @@ Code (from page 3):
     <p style="color: blue; font-size: 60px; background-color: #444444;"><b style="color: red;">R</b><i style="color: green;">G</i>B</p>
 </body>
 ```
+
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
