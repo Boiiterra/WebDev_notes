@@ -213,6 +213,12 @@ Code:
 To add audio files to your page use `audio` element (It has closing tag between which you can list sources in case one is not supported by browser).
 You can add controls to an audio with `controls` attribute. You can make it auto play with `autoplay` attribute as well as muted (`muted`) and looped (`loop`)
 
+<br>
+
+Check [website's page 2](https://terraboii.github.io/HTML_notes/page2.html "website's page 2").
+
+<br>
+
 Code:
 
 <br>
@@ -231,6 +237,12 @@ Code:
 
 ## Video
 MP4, Ogg and WebM maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
+
+<br>
+
+Check [website's page 2](https://terraboii.github.io/HTML_notes/page2.html "website's page 2").
+
+<br>
 
 Code:
 
@@ -516,6 +528,10 @@ Code:
 
 <br>
 
+Check [website](https://terraboii.github.io/HTML_notes/ 'website').
+
+<br>
+
 Code:
 
 <br>
@@ -529,6 +545,10 @@ Code:
 ## Buttons
 You press them and they do magic. Use `onclick="function_name"` attribute to make button magical. \
 Can be disabled with `disabled` attribute.
+
+<br>
+
+Check [website](https://terraboii.github.io/HTML_notes/ 'website').
 
 <br>
 
