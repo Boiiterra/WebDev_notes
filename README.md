@@ -20,6 +20,7 @@
   - [Tables](#tables)
   - [Colorful page](#colorful-page)
   - [Span and div](#span-and-div)
+  - [Metadata](#metadata)
 
 </details>
 <hr>
@@ -480,6 +481,30 @@ Code:
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quas eveniet fugit laudantium officia quam quos cum, minima dolorum soluta blanditiis sed ut consequatur consectetur. Nostrum quidem eum maiores cupiditate!
     </p>
 </div>
+```
+
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+
+## Metadata
+Is data that gives or describes info about data. Positioned between `head` tags of the document. `meta` tag is self closing tag. \
+
+`Meta` tag has `http-equiv`, `charset`, `name` and `content` attributes. Maybe more.
+
+<br>
+
+Code:
+
+<br>
+
+```html
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adding this tag scales webpage for mobile phone and other devises -->
+    <meta name="description" content="HTML examples page"> <!-- description of the webpage -->
+    <meta name="keywords" content="HTML, examples, page"> <!-- keywords for search engine optimization -->
+    <meta name="author" content="TerraBoii"> <!-- Author -->
+    <meta charset="UTF-8"> <!-- Tells browser character encoding you are using -->
+    <meta http-equiv="refresh" content="30"> <!-- auto refresh page after '30' seconds -->
+</head>
 ```
 
 <p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
