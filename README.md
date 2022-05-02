@@ -514,8 +514,6 @@ Code:
 `iframe` tag - embed content from another source into an HTML document, ex. used for ads.
 
 <br>
-<iframe style="border: 0;" src="page3.html", height="250", width="500"></iframe>
-<br>
 
 Code:
 
