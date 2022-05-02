@@ -1,3 +1,29 @@
+<details>
+<summary><b>Navigation</b></summary>
+
+- [HTML notes](#html-notes)
+  - [Main structure](#main-structure)
+  - [Websites title](#websites-title)
+  - [Headers](#headers)
+  - [Paragraph](#paragraph)
+  - [Line breaker](#line-breaker)
+  - [Horizontal rule](#horizontal-rule)
+  - [Hyperlinks](#hyperlinks)
+  - [Image](#image)
+  - [Audio](#audio)
+  - [Video](#video)
+  - [Text formatting tags](#text-formatting-tags)
+  - [Lists](#lists)
+    - [Unordered list](#unordered-list)
+    - [Ordered list](#ordered-list)
+    - [Description list](#description-list)
+  - [Tables](#tables)
+  - [Colorful page](#colorful-page)
+
+</details>
+
+<br>
+
 # HTML notes
 This contains some useful info about HTML. Some examples are not supported here so you can view [Website]("https://google.com" "Link to the website") \
 If you struggle to understand what is written here well this is my notes for HTML.
@@ -395,4 +421,17 @@ Code:
         <td height="50">Table Data 2</td>
     </tr>
 </table>
+```
+
+## Colorful page
+To make things colorful use attribute `style`.
+
+<br>
+
+Code:
+
+<br>
+
+```html
+
 ```
