@@ -427,11 +427,11 @@ Code:
 ```
 
 ## Colorful page
-To make things colorful use attribute `style`. To add colors use <u title="black" style="color: #fc7f03;">text</u>, <u title="#000000" style="color: #fc7f03;">hex</u> or <u title="rgb(0, 0, 0)" style="color: #fc7f03;">rgb</u> values
+To make things colorful use attribute `style`. To add colors use <u title="black">text</u>, <u title="#000000">hex</u> or <u title="rgb(0, 0, 0)">rgb</u> values.
 
 <br>
 
-Check out [Website's page 3]("https://terraboii.github.io/HTML_notes/page3.html")
+Check out [Website's page 3]("https://terraboii.github.io/HTML_notes/page3.html").
 
 <br>
 
