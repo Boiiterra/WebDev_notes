@@ -19,6 +19,7 @@
     - [Description list](#description-list)
   - [Tables](#tables)
   - [Colorful page](#colorful-page)
+  - [Span and div](#span-and-div)
 
 </details>
 <hr>
@@ -447,6 +448,38 @@ Code (from page 3):
     <a href="index.html"><h3 style="color: rgb(0, 255, 255);"><b>Go back to main page</b></h3></a>
     <p style="color: blue; font-size: 60px; background-color: #444444;"><b style="color: red;">R</b><i style="color: green;">G</i>B</p>
 </body>
+```
+
+<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+
+## Span and div
+`span` tag - adds markup to text or portion of a document. \
+`div` tag - defines a division of a document.
+
+<br>
+<div style="background-color: #666666;">
+    <p>
+        <span style="color:red;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span> Quasi fugiat deleniti tenetur. Adipisci ratione, repudiandae dolorem magni consectetur dolore libero unde velit est quod, delectus nesciunt. Consequuntur, dolore dolorum! Nostrum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quas eveniet fugit laudantium officia quam quos cum, minima dolorum soluta blanditiis sed ut consequatur consectetur. Nostrum quidem eum maiores cupiditate!
+    </p>
+</div>
+<br>
+
+Code:
+
+<br>
+
+```html
+<div style="background-color: #666666;">
+    <p>
+        <span style="color:red;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span> Quasi fugiat deleniti tenetur. Adipisci ratione, repudiandae dolorem magni consectetur dolore libero unde velit est quod, delectus nesciunt. Consequuntur, dolore dolorum! Nostrum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quas eveniet fugit laudantium officia quam quos cum, minima dolorum soluta blanditiis sed ut consequatur consectetur. Nostrum quidem eum maiores cupiditate!
+    </p>
+</div>
 ```
 
 <p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
