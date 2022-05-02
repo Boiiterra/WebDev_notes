@@ -531,15 +531,6 @@ You press them and they do magic. Use `onclick="function_name"` attribute to mak
 Can be disabled with `disabled` attribute.
 
 <br>
-<button onclick="doMagic()" style="background-color: #666666; color: aqua; border-color: black; border-radius: 10px;">Do magic</button>
-<p id="magic" style="font-size: 20px;"><b>Magic doesn't exist!</b></p>
-
-<script>
-    function doMagic(){
-        document.getElementById("magic").innerHTML = "Magic exists!!!"
-    }
-</script>
-<br>
 
 Code:
 
