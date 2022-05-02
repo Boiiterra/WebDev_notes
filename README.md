@@ -431,7 +431,7 @@ To make things colorful use attribute `style`. To add colors use <u title="black
 
 <br>
 
-Check out [Website's page 3]("https://terraboii.github.io/HTML_notes/page3.html").
+[Check out Website's page 3]("https://terraboii.github.io/HTML_notes/page3.html").
 
 <br>
 
