@@ -118,7 +118,7 @@
     </div>
     <hr>
     <p>Iframe:</p>
-    <iframe style="border: 0;" src="ad_example.html", height="90", width="530">Test</iframe>
+    <iframe style="border: 0;" src="ad_example.html", height="10%", width="100%">Test</iframe>
     <hr>
     <p>Button:</p>
     <button onclick="doMagic()" type="button" style="background-color: #666666; color: aqua; border-color: black; border-radius: 10px;">
@@ -140,6 +140,7 @@
         }
     </script>
     <hr>
+    <p>Form</p>
     <br>
     <form action="action_page.php" method="post">
 
@@ -180,7 +181,7 @@
 
         <div>
             <label for="bday">Birthdate:</label>
-            <input id="bday" type="date" required name="bday">
+            <input id="bday" type="date" required name="bday" min="2000-01-01">
         </div>
 
         <br>
@@ -229,12 +230,28 @@
         <br>
 
         <div>
+            <label for="rate">Rate us:</label>
+            1<input type="range" step="25" value="50">5
+        </div>
+
+        <br>
+
+        <div>
+            <label for="file">File:</label>
+            <input type="file">
+        </div>
+
+        <br>
+
+        <div>
             <input type="reset">
             &emsp;&ensp;&nbsp;
-            <input type="submit">
+            <input type="submit" name="file" id="file" accept=".txt">
         </div>
 
     </form>
+    <hr>
+
 
     <br><br><br><br><br><br><br><br><br><br><br><br>
 
