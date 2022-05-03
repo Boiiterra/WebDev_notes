@@ -550,7 +550,8 @@ Code:
 
 ## Buttons
 You press them and they do magic. Use `onclick="function_name"` attribute to make button magical. \
-Can be disabled with `disabled` attribute.
+Can be disabled with `disabled` attribute. You can make it automatically grab focus with `autofocus` attribute. \
+There are default, submit and reset buttons.
 
 <br>
 
@@ -564,7 +565,14 @@ Code:
 
 ```html
 <button onclick="doMagic()" style="background-color: #666666; color: aqua; border-color: black; border-radius: 10px;">Do magic</button>
-<p id="magic" style="font-size: 20px;"><b>Magic doesn't exist!</b></p>
+<p id="magic" style="font-size: 20px;"><b>Magic doesn't exist!</b></p><br>
+<button type="submit" name="submit_btn" value="Submit">
+    Submit
+</button>
+
+<button type="reset" name="reset_btn" value="Reset">
+    Reset
+</button>
 
 <script>
     function doMagic(){
