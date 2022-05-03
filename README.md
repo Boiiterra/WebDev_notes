@@ -61,7 +61,7 @@ For HTML5:
 
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Websites title
 
@@ -73,7 +73,7 @@ To change websites title use:
 <title>Title</title>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Headers
 
@@ -102,7 +102,7 @@ Code:
 <h6>Header 6</h6>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Paragraph
 
@@ -120,7 +120,7 @@ Code:
 <p>Paragraph example</p>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Line breaker
 This element doesn't require closing tag. Adds line break 
@@ -140,7 +140,7 @@ code:
 <p>Line 2</p>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Horizontal rule
 This element doesn't require closing tag. Devides page by sections 
@@ -157,7 +157,7 @@ Code:
 <hr>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Hyperlinks
 Element of the page surrounded by `a` tags that refers to something
@@ -187,7 +187,7 @@ Code:
 <a href="https://google.com" title="Title">Go to 'Google' with title</a>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Image
 To display images you need to use image element `img` which is self closing tag
@@ -212,7 +212,7 @@ Code:
 <img src="images/example.jpg" width=280, height=110 title="Is it wide?" alt="wide image">
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Audio
 To add audio files to your page use `audio` element (It has closing tag between which you can list sources in case one is not supported by browser).
@@ -238,7 +238,7 @@ Code:
 </audio>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Video
 MP4, Ogg and WebM maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
@@ -257,7 +257,7 @@ Code:
 <video controls autoplay muted loop src="sample_960x400_ocean_with_audio.mp4" width="400"><br>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Text formatting tags
 Some of them.
@@ -292,7 +292,7 @@ Code:
 <p>This is <mark>marked</mark> text</p>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Lists 
 <br>
@@ -312,7 +312,7 @@ Code:
 
 ### Ordered list
 <br>
-<ol type="A">
+<ol type="1" start="3">
     <li>First
         <ol>
             <li>Subitem 1</li>
@@ -352,7 +352,7 @@ Code:
 
 <h3>Ordered list</h3>
 
-<ol type="A">
+<ol type="1" start="3">
     <li>First
         <ol>
             <li>Subitem 1</li>
@@ -373,7 +373,7 @@ Code:
 ```
 
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Tables
 Is an arrangement of information or data usually represented in rows and columns.
@@ -390,9 +390,9 @@ Is an arrangement of information or data usually represented in rows and columns
 </details>
 <br>
 <br>
-<p>Basic one:</p>
+<p>Basic one with border:</p>
 
-<table>
+<table  border=2px>
     <tr>
         <th>Table Header 1</th>
         <th>Table Header 2</th>
@@ -404,7 +404,7 @@ Is an arrangement of information or data usually represented in rows and columns
 </table>
 <br>
 <p>Modified one:</p>
-<table bgcolor="black">
+<table bgcolor="black" border=2px>
     <tr bgcolor="green" align="center" width="200">
         <th width="100">Table Header 1</th>
         <th width="100">Table Header 2</th>
@@ -421,9 +421,9 @@ Code:
 <br>
 
 ```html
-<p>Basic one:</p>
+<p>Basic one with border:</p>
 
-<table>
+<table  border=2px>
     <tr>
         <th>Table Header 1</th>
         <th>Table Header 2</th>
@@ -436,7 +436,7 @@ Code:
 
 <p>Modified one:</p>
 
-<table bgcolor="black">
+<table bgcolor="black" border=2px>
     <tr bgcolor="green" align="center" width="200">
         <th width="100">Table Header 1</th>
         <th width="100">Table Header 2</th>
@@ -448,7 +448,7 @@ Code:
 </table>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Colorful page
 To make things colorful use attribute `style`. To add colors use <u title="black">text</u>, <u title="#000000">hex</u> or <u title="rgb(0, 0, 0)">rgb</u> values.
@@ -470,7 +470,7 @@ Code (from page 3):
 </body>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Span and div
 `span` tag - adds markup to text or portion of a document. \
@@ -502,7 +502,7 @@ Code:
 </div>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Metadata
 Is data that gives or describes info about data. Positioned between `head` tags of the document. `meta` tag is self closing tag. \
@@ -526,7 +526,7 @@ Code:
 </head>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Iframe
 `iframe` tag - embed content from another source into an HTML document, ex. used for ads.
@@ -545,7 +545,7 @@ Code:
 <iframe style="border: 0;" src="ad_example.html", height="250", width="500"></iframe>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Buttons
 You press them and they do magic. Use `onclick="function_name"` attribute to make button magical. \
@@ -572,7 +572,7 @@ Code:
 </script>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Forms
 This element accepts user's input.
@@ -684,4 +684,4 @@ Code:
 </form>
 ```
 
-<p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
+<p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
