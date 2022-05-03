@@ -4,29 +4,52 @@
 - [WebDev notes](#webdev-notes)
 - [HTML](#html)
   - [Main structure](#main-structure)
+    - [Code:](#code)
   - [Websites title](#websites-title)
+    - [Code:](#code-1)
   - [Headers](#headers)
+    - [Code:](#code-2)
   - [Paragraph](#paragraph)
+    - [Code:](#code-3)
   - [Line breaker](#line-breaker)
+    - [Code:](#code-4)
   - [Horizontal rule](#horizontal-rule)
+    - [Code:](#code-5)
   - [Hyperlinks](#hyperlinks)
+    - [Code:](#code-6)
   - [Image](#image)
+    - [Code:](#code-7)
   - [Audio](#audio)
+    - [Code:](#code-8)
   - [Video](#video)
+    - [Code:](#code-9)
   - [Text formatting tags](#text-formatting-tags)
+    - [Code:](#code-10)
   - [Lists](#lists)
     - [Unordered list](#unordered-list)
     - [Ordered list](#ordered-list)
     - [Description list](#description-list)
+    - [Code:](#code-11)
   - [Tables](#tables)
+    - [Code:](#code-12)
   - [Colorful page](#colorful-page)
+    - [Code:](#code-13)
   - [Span and div](#span-and-div)
+    - [Code:](#code-14)
   - [Metadata](#metadata)
+    - [Code:](#code-15)
   - [Iframe](#iframe)
+    - [Code:](#code-16)
   - [Buttons](#buttons)
+    - [Code:](#code-17)
   - [Forms](#forms)
+    - [Code:](#code-18)
 - [CSS](#css)
   - [Import CSS file to HTML document](#import-css-file-to-html-document)
+    - [Inline:](#inline)
+    - [Internal:](#internal)
+    - [External:](#external)
+    - [Code:](#code-19)
 
 </details>
 <hr>
@@ -50,7 +73,8 @@ This one builds your webpage.
 
 ## Main structure
 
-For HTML5:
+For HTML5.
+### Code:
 
 <br>
 
@@ -74,7 +98,8 @@ For HTML5:
 
 ## Websites title
 
-To change websites title use:
+To change websites title use.
+### Code:
 
 <br>
 
@@ -98,7 +123,7 @@ Example:
 <h6>Header 6</h6>
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -121,7 +146,7 @@ Is an element that has blank line before and after it:
 <p>Paragraph example</p>
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -139,7 +164,7 @@ This element doesn't require closing tag. Adds line break
 <br>
 <p>Line 2</p>
 
-code:
+### Code:
 
 <br>
 
@@ -158,7 +183,7 @@ This element doesn't require closing tag. Devides page by sections
 <hr>
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -184,7 +209,7 @@ To begin downloading something after pressing hyperlink insert `path` to the obj
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -210,7 +235,7 @@ and change it's source attribute. Also you can change size of the image. To do s
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -234,7 +259,7 @@ Check [website's page 2](https://terraboii.github.io/WebDev_notes/page2.html "we
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -259,7 +284,7 @@ Check [website's page 2](https://terraboii.github.io/WebDev_notes/page2.html "we
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -285,7 +310,8 @@ Some of them.
 <p>This is <del>deleted</del> text</p>
 <p>This is <mark>marked</mark> text</p>
 <br>
-Code:
+
+### Code:
 
 <br>
 
@@ -343,13 +369,12 @@ Code:
 </dl>
 <br>
 
-Code:
+### Code:
 
 <br>
-
-```html
 <h3>Unordered list</h3>
 
+```html
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -359,9 +384,12 @@ Code:
         </ul>
     </li>
 </ul>
+```
 
+<br>
 <h3>Ordered list</h3>
 
+```html
 <ol type="1" start="3">
     <li>First
         <ol>
@@ -371,9 +399,12 @@ Code:
     <li>Second</li>
     <li>Third</li>
 </ol>
+```
 
+<br>
 <h3>Description list</h3>
 
+```html
 <dl>
     <dt>Term 1</dt>
     <dd>Definition 1</dd>
@@ -426,13 +457,12 @@ Is an arrangement of information or data usually represented in rows and columns
 </table>
 <br>
 
-Code:
+### Code:
 
 <br>
-
-```html
 <p>Basic one with border:</p>
 
+```html
 <table>
     <tr>
         <th>Table Header 1</th>
@@ -443,9 +473,12 @@ Code:
         <td>Table Data 2</td>
     </tr>
 </table>
+```
 
+<br>
 <p>Modified one:</p>
 
+```html
 <table bgcolor="black" border=2px>
     <tr bgcolor="green" align="center" width="200">
         <th width="100">Table Header 1</th>
@@ -469,7 +502,7 @@ Check out [Website's page 3](https://terraboii.github.io/WebDev_notes/page3.html
 
 <br>
 
-Code (from page 3):
+### Code:
 
 <br>
 
@@ -497,7 +530,7 @@ Code (from page 3):
 </div>
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -521,7 +554,7 @@ Is data that gives or describes info about data. Positioned between `head` tags 
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -547,7 +580,7 @@ Check [website](https://terraboii.github.io/WebDev_notes/ 'website').
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -568,7 +601,7 @@ Check [website](https://terraboii.github.io/WebDev_notes/ 'website').
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -601,7 +634,7 @@ Check [website](https://terraboii.github.io/WebDev_notes/ "website").
 
 <br>
 
-Code:
+### Code:
 
 <br>
 
@@ -714,14 +747,74 @@ This makes you webpage look beautiful and colorful.
 
 ## Import CSS file to HTML document
 
+THere are three ways to use CSS with HTML document:
+- Inline
+- Internal
+- External
+
 <br>
 
-Code:
+### Inline:
 
 <br>
+<p style="color: white; background-color: black;">This is inline CSS.</p>
+<br>
+
+### Internal:
+
+<br>
+
+Check [websites's page 3](https://terraboii.github.io/WebDev_notes/page3.html).
+
+<br>
+
+### External:
+
+<br>
+
+Check [websites's customized with CSS page](https://terraboii.github.io/WebDev_notes/customized.html).
+
+<br>
+
+### Code:
+
+<br>
+
+<h3>Inline:</h3>
 
 ```html
 
+<p style="color: white; background-color: black;">This is inline CSS.</p>
+
+```
+<br>
+<h3>Internal:</h3>
+
+```html
+<head>
+
+    <style>
+        h2{
+            color: Blue;
+            background-color: darkgray;
+        }
+        span{
+            color: azure;
+        }
+    </style>
+
+</head>
+```
+
+<br>
+<h3>External:</h3>
+
+```html
+<Head>
+
+    <link rel="stylesheets" href="styles.css">
+
+</head>
 ```
 
 <p align="right">(<a href="#webdev-notes" title="to the top of the page">back to top</a>)</p><br>
