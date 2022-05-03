@@ -197,7 +197,7 @@ and change it's source attribute. Also you can change size of the image. To do s
 
 <img src="images/example.jpg" alt="This is an example image"><br>
 <a href="https://commons.wikimedia.org/wiki/Example_images"><img src="images/example.jpg" alt="image" title="Link to the image source" width=180></a><br>
-<img src="images/example.jpg" width=280, height=110 title="Is it wide?">
+<img src="images/example.jpg" width=280, height=110 title="Is it wide?" alt="wide image">
 
 <br>
 
@@ -208,7 +208,8 @@ Code:
 ```html
 <img src="images/example.jpg" alt="This is an example image"><br>
 <a href="https://commons.wikimedia.org/wiki/Example_images"><img src="images/example.jpg" alt="image" title="Link to the image source"></a><br>
-<img src="images/example.jpg" width=180, height=110>
+<img src="images/example.jpg" width=180, height=110><br>
+<img src="images/example.jpg" width=280, height=110 title="Is it wide?" alt="wide image">
 ```
 
 <p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
