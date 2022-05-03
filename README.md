@@ -50,6 +50,8 @@
     - [Internal:](#internal)
     - [External:](#external)
     - [Code:](#code-19)
+  - [Fonts](#fonts)
+    - [Code:](#code-20)
 
 </details>
 <hr>
@@ -818,3 +820,22 @@ Check [websites's customized with CSS page](https://terraboii.github.io/WebDev_n
 ```
 
 <p align="right">(<a href="#webdev-notes" title="to the top of the page">back to top</a>)</p><br>
+
+## Fonts
+
+There are  two categories of fonts: \
+1. Serif
+2. Sans-serif
+
+Wikipedia is your friend here. Sorry. \
+To change font you need to changed it's family: `font-family: Font Family;`
+
+<br>
+
+### Code:
+
+<br>
+
+```css
+
+```
