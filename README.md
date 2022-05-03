@@ -216,7 +216,8 @@ Code:
 
 ## Audio
 To add audio files to your page use `audio` element (It has closing tag between which you can list sources in case one is not supported by browser).
-You can add controls to an audio with `controls` attribute. You can make it auto play with `autoplay` attribute as well as muted (`muted`) and looped (`loop`)
+You can add controls to an audio with `controls` attribute. You can make it auto play with `autoplay` attribute as well as muted (`muted`) and looped (`loop`). \
+HTML5 supports: `.mp3`, `.wav` and `.ogg`. Maybe more.
 
 <br>
 
@@ -241,7 +242,7 @@ Code:
 <p align="right">(<a href="#html-notes" title="to the top of the page">back to top</a>)</p><br>
 
 ## Video
-MP4, Ogg and WebM maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
+`.mp4`, `.ogg` and `.webM` maybe some more. is quite similar to [Audio](#audio) and [Image](#image). Has closing tag which functions as [Audio's](#audio)
 
 <br>
 
@@ -392,7 +393,7 @@ Is an arrangement of information or data usually represented in rows and columns
 <br>
 <p>Basic one with border:</p>
 
-<table  border=2px>
+<table>
     <tr>
         <th>Table Header 1</th>
         <th>Table Header 2</th>
@@ -423,7 +424,7 @@ Code:
 ```html
 <p>Basic one with border:</p>
 
-<table  border=2px>
+<table>
     <tr>
         <th>Table Header 1</th>
         <th>Table Header 2</th>
