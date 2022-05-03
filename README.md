@@ -161,15 +161,17 @@ Code:
 
 ## Hyperlinks
 Element of the page surrounded by `a` tags that refers to something
-Has attribute `target`. If you set target to `_blank` link will open in new tab/window, if target is set to `_self` which is default then link will open in current tab. Also there is useful attribute `title` which displays tip box when hover over link. Links can also be used to redirect user to another page. To do so you need to insert path to necessary html file in main one into `href` attribute.
-To begin sending email process you need to insert `mailto:email@email.example` into `href` attribute
+Has attribute `target`. If you set target to `_blank` link will open in new tab/window, if target is set to `_self` which is default then link will open in current tab. Also there is useful attribute `title` which displays tip box when hover over link. Links can also be used to redirect user to another page. To do so you need to insert path to necessary html file in main one into `href` attribute. \
+To begin sending email process you need to insert `mailto:email@email.example` into `href` attribute. \
+To begin downloading something after pressing hyperlink insert `path` to the object that you want user to download and add `download` attribute. You can also add name of the file that will be downloaded: `download="file_name"`.
 
 <br>
 
-<a href="https://google.com">'Google' with no extra attributes</a><br>
-<a href="https://google.com" target=_blank>'Google' with blank</a><br>
-<a href="https://google.com" target=_self>'Google' with self</a><br>
-<a href="https://google.com" title="Title">'Google' with title</a>
+<a href="images/example.jpg" download="example.jpg">Download example image</a><br>
+<a href="https://google.com">Go to 'Google' with no extra attributes</a><br>
+<a href="https://google.com" target=_blank>Go to 'Google' with blank</a><br>
+<a href="https://google.com" target=_self>Go to 'Google' with self</a><br>
+<a href="https://google.com" title="Title">Go to 'Google' with title</a>
 
 <br>
 
@@ -178,10 +180,11 @@ Code:
 <br>
 
 ```html
-<a href="https://google.com">'Google' with no extra attributes</a><br>
-<a href="https://google.com" target=_blank>'Google' with blank</a><br>
-<a href="https://google.com" target=_self>'Google' with self</a><br>
-<a href="https://google.com" title="Title">'Google' with title</a>
+<a href="images/example.jpg" download="example.jpg">Download example image</a><br>
+<a href="https://google.com">Go to 'Google' with no extra attributes</a><br>
+<a href="https://google.com" target=_blank>Go to 'Google' with blank</a><br>
+<a href="https://google.com" target=_self>Go to 'Google' with self</a><br>
+<a href="https://google.com" title="Title">Go to 'Google' with title</a>
 ```
 
 <p align="right">(<a href="#top" title="to the top of the page">back to top</a>)</p><br>
