@@ -33,8 +33,8 @@
 <br>
 
 # WebDev notes
-This contains some useful info about HTML. Some examples are not supported here so you can view [Website]("https://google.com" "Link to the website") \
-If you struggle to understand what is written here well this is my notes for HTML.
+This contains some useful info about HTML, CSS and JS. Some examples are not supported here so you can view [Website]("https://google.com" "Link to the website") \
+If you struggle to understand what is written here well this is my notes for HTML, CSS and JS. This will contain basics.
 You can fork it and change it if you like.
 
 <br>
