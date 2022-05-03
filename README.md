@@ -30,7 +30,7 @@
 
 </details>
 <hr>
-<a href="https://terraboii.github.io/HTML_notes/"><p><b>Link to the Webpage</b></p></a>
+<a href="https://terraboii.github.io/WebDev_notes/"><p><b>Link to the Webpage</b></p></a>
 <hr>
 
 <br>
@@ -230,7 +230,7 @@ HTML5 supports: `.mp3`, `.wav` and `.ogg`. Maybe more.
 
 <br>
 
-Check [website's page 2](https://terraboii.github.io/HTML_notes/page2.html "website's page 2").
+Check [website's page 2](https://terraboii.github.io/WebDev_notes/page2.html "website's page 2").
 
 <br>
 
@@ -255,7 +255,7 @@ Code:
 
 <br>
 
-Check [website's page 2](https://terraboii.github.io/HTML_notes/page2.html "website's page 2").
+Check [website's page 2](https://terraboii.github.io/WebDev_notes/page2.html "website's page 2").
 
 <br>
 
@@ -465,7 +465,7 @@ To make things colorful use attribute `style`. To add colors use <u title="black
 
 <br>
 
-Check out [Website's page 3](https://terraboii.github.io/HTML_notes/page3.html "page 3").
+Check out [Website's page 3](https://terraboii.github.io/WebDev_notes/page3.html "page 3").
 
 <br>
 
@@ -543,7 +543,7 @@ Code:
 
 <br>
 
-Check [website](https://terraboii.github.io/HTML_notes/ 'website').
+Check [website](https://terraboii.github.io/WebDev_notes/ 'website').
 
 <br>
 
@@ -564,7 +564,7 @@ There are default, submit and reset buttons.
 
 <br>
 
-Check [website](https://terraboii.github.io/HTML_notes/ 'website').
+Check [website](https://terraboii.github.io/WebDev_notes/ 'website').
 
 <br>
 
@@ -597,7 +597,7 @@ This element accepts user's input.
 
 <br>
 
-Check [website](https://terraboii.github.io/HTML_notes/ "website").
+Check [website](https://terraboii.github.io/WebDev_notes/ "website").
 
 <br>
 
