@@ -2,6 +2,7 @@
 <summary><b>Navigation</b></summary>
 
 - [WebDev notes](#webdev-notes)
+- [HTML](#html)
   - [Main structure](#main-structure)
   - [Websites title](#websites-title)
   - [Headers](#headers)
@@ -24,6 +25,8 @@
   - [Iframe](#iframe)
   - [Buttons](#buttons)
   - [Forms](#forms)
+- [CSS](#css)
+  - [Import CSS file to HTML document](#import-css-file-to-html-document)
 
 </details>
 <hr>
@@ -36,6 +39,12 @@
 This contains some useful info about HTML, CSS and JS. Some examples are not supported here so you can view [Website]("https://google.com" "Link to the website") \
 If you struggle to understand what is written here well this is my notes for HTML, CSS and JS. This will contain basics.
 You can fork it and change it if you like.
+
+<br><br><br>
+
+# HTML
+
+This one builds your webpage.
 
 <br>
 
@@ -636,7 +645,7 @@ Code:
 
     <div>
         <label for="bday">Birthdate:</label>
-        <input id="bday" type="date" required name="bday">
+        <input id="bday" type="date" required name="bday" min="2000-01-01">
     </div>
 
     <br>
@@ -691,6 +700,28 @@ Code:
     </div>
 
 </form>
+```
+
+<p align="right">(<a href="#webdev-notes" title="to the top of the page">back to top</a>)</p><br>
+
+<br><br><br>
+
+# CSS
+
+This makes you webpage look beautiful and colorful.
+
+<br>
+
+## Import CSS file to HTML document
+
+<br>
+
+Code:
+
+<br>
+
+```html
+
 ```
 
 <p align="right">(<a href="#webdev-notes" title="to the top of the page">back to top</a>)</p><br>
