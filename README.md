@@ -759,7 +759,9 @@ THere are three ways to use CSS with HTML document:
 ### Inline:
 
 <br>
-<p style="color: white; background-color: black;">This is inline CSS.</p>
+
+Check [websites's page 3](https://terraboii.github.io/WebDev_notes/page3.html).
+
 <br>
 
 ### Internal:
@@ -823,12 +825,12 @@ Check [websites's customized with CSS page](https://terraboii.github.io/WebDev_n
 
 ## Fonts
 
-There are  two categories of fonts: \
+There are two categories of fonts:
 1. Serif
 2. Sans-serif
 
-Wikipedia is your friend here. Sorry. \
-To change font you need to changed it's family: `font-family: Font Family;`
+To know what's different Wikipedia is your friend here. Sorry. \
+To change font you need to changed it's family: `font-family: "Font Family", category;`
 
 <br>
 
@@ -837,5 +839,7 @@ To change font you need to changed it's family: `font-family: Font Family;`
 <br>
 
 ```css
-
+.element {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 ```
